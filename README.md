@@ -1,1 +1,0 @@
-# smairi1998.github.io
