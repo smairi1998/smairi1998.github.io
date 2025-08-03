@@ -130,14 +130,14 @@ document.querySelectorAll(".skill-item").forEach((skill) => {
   })
 })
 
-// Parallax effect for hero section
-window.addEventListener("scroll", () => {
-  const scrolled = window.pageYOffset
-  const heroVisual = document.querySelector(".hero-visual")
-  if (heroVisual) {
-    heroVisual.style.transform = `translateY(${scrolled * 0.5}px)`
-  }
-})
+// Parallax effect for hero section - DISABLED
+// window.addEventListener("scroll", () => {
+//   const scrolled = window.pageYOffset
+//   const heroVisual = document.querySelector(".hero-visual")
+//   if (heroVisual) {
+//     heroVisual.style.transform = `translateY(${scrolled * 0.5}px)`
+//   }
+// })
 
 // Add loading animation to page
 window.addEventListener("load", () => {
